@@ -43,28 +43,28 @@ A total of 30 faces were successfully detected within the faculty group image.
 ### 2. Face Clustering Based on Hue and Saturation
 The extracted features were plotted in a 2D space to observe the distribution of the group.
 
-![Face Clustering](.\Face_Clustering.png)
+![Face Clustering](./Face_Clustering.png)
 
 ---
 
 ### 3. KMeans Cluster Plot with Centroids
 The application of KMeans resulted in two distinct groups, with centroids marked to show the center of each cluster.
 
-![Cluster Plot](.\k_means_clustering.png)
+![Cluster Plot](./k_means_clustering.png)
 
 ---
 
 ### 4. Clustering with Template Face Included
 The reference template was projected into the existing feature space to visualize its position relative to the faculty groups.
 
-![Template Clustering](.\template_image_classified.png)
+![Template Clustering](./template_image_classified.png)
 
 ---
 
 ### 5. Final KMeans Classification Plot
 The template face was assigned to a specific cluster, confirming the model's ability to classify new data points.
 
-![Template Classification Plot](.\final_cluster_distribution.png)
+![Template Classification Plot](./final_cluster_distribution.png)
 
 ---
 
